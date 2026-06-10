@@ -1,73 +1,84 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Clamentis
+### *Claritas Mentis - Peacefully and Cleared mind*
 
-Currently, two official plugins are available:
+A mobile-first mental health companion.
+Track emotions, write your thoughts, stay on top of your medication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Status](https://img.shields.io/badge/status-in%20development-green?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
+![Made with](https://img.shields.io/badge/made%20with-React-61DAFB?style=flat-square)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Vision
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Clamentia is a mobile-first PWA built for people who want to understand themselves better. Calm, beautiful, and personal — like a journal that thinks with you.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+> *"Claritas mentis"* — Latin for *clarity of mind*
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**Mascot:** Clementine 🍊
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Feature | Status |
+|---|---|
+| 🎭 Emotion tracker | Planned |
+| 🖊️ Daily journal | Planned |
+| 🤖 AI journal analysis | Planned |
+| 💊 Medication tracker | Planned |
+| 🎨 Emotion visualizations | Planned |
+| 📊 Mood charts | Planned |
+| 🌙 Dark mode | Planned |
+| 📱 PWA | Planned |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Tech Stack
+
+**Frontend**
+- React + TypeScript
+- Tailwind CSS
+- Framer Motion
+
+**Backend**
+- Node.js + Express
+- PostgreSQL + Prisma
+- JWT Auth
+
+**AI**
+- Claude API (Anthropic)
+
+**Deploy**
+- Vercel + Railway + Supabase
+
+---
+
+## Roadmap
+
+- [x] Phase 0 — Foundation
+- [ ] Phase 1 — Design (Figma, Clementine, illustrations)
+- [ ] Phase 2 — Frontend base
+- [ ] Phase 3 — Emotion tracker
+- [ ] Phase 4 — Journal + AI analysis
+- [ ] Phase 5 — Backend
+- [ ] Phase 6 — Medication tracker
+- [ ] Phase 7 — Polish + PWA
+- [ ] Phase 8 — Deploy
+
+---
+
+## Author
+
+Built by **[num1n](https://github.com/num1n)** — learning in public 
+
+---
+
+<div align="center">
+<sub> Clamentia — because clarity starts within</sub>
+</div>
