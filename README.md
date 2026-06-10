@@ -80,5 +80,5 @@ Built by **[num1n](https://github.com/num1n)** — learning in public
 ---
 
 <div align="center">
-<sub>🌿 Clamentia — because clarity starts within</sub>
+<sub> Clamentia — because clarity starts within</sub>
 </div>
