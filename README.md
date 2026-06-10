@@ -76,8 +76,8 @@ Clamentia is a mobile-first PWA built for people who want to understand themselv
 ## Author
 
 Built by 
-**[num1n](https://github.com/num1n)** — learning in public
-**[Loloxuuu]** — best design ever 
+* **[num1n](https://github.com/num1n)** — learning in public
+* **Loloxuuu** — best design ever 
 
 ---
 
