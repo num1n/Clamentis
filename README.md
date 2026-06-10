@@ -70,6 +70,7 @@ Clamentia is a mobile-first PWA built for people who want to understand themselv
 - [ ] Phase 6 — Medication tracker
 - [ ] Phase 7 — Polish + PWA
 - [ ] Phase 8 — Deploy
+- [ ] Phase 9 — Add widgets
 
 ---
 
